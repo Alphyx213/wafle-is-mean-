@@ -1,14 +1,39 @@
-h1 {
-    text-align: center; color: white; background-color: black;
+main{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.box-1{display: flex;
+    width: 310px;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: solid;
+    
+}
+#h1 {
+    text-align: center; 
+    color: white; 
+    background-color: black;
+     height: 40px; 
 }
 #image {
     width: 150px; flex: 1 1 200px;
 }
-#mr {
+#me {
     float: left; color: red;
 }
 .waf-pic {
-    text-align: center; margin-top: 30%; 
+    border-width: 5px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 3px black;
+    border-style: solid;
+    text-align: center; 
+    margin-top: ; 
+    display: flex;
+    bottom: 10px;
+    width:400px;
+    margin-top: 30px;
 }
 #waf { 
     width: 200px; float: left;
@@ -16,12 +41,54 @@ h1 {
 #wafle {
     float: left;
 }
-a {
-    color: black; font-family:sans-serif; font-size: 26px; font-weight: bolder; text-decoration: dashed;
-}
-.box-1{display: flex;
-    width: 300px;
-    border-radius: 10px;
-    border-width: 10px;
+.alphyx{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    width: 450px;
+    position: fixed;
+    box-shadow:10px 10px 10px 10px grey;
+    border-radius: 20px;
     border-style: solid;
+    height: 40%;
+    right: 10px;
+    bottom: 10px;
+    
+}
+#alptex{
+    padding-left: 10%;
+}
+.alpic{
+    height: 200px;
+    margin-left: 35%;
+}
+a {
+    display: flex;
+    width: 25%;
+    color: black; 
+    font-family:sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    text-decoration: dashed;
+    position: fixed;
+    top: 100px;
+    right: 10px;
+}
+footer{
+
+    position: static;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(168, 72, 168);
+    border-width: 10px;
+    width: 35%;
+    margin-top: 50px;
+}
+.hidden{
+    display: none;
+}
+@media screen and (max-width:768px){
+.hidden {
+    display: block;
+}
 }
